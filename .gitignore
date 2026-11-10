@@ -1,0 +1,29 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution & Build
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Downloaded packages & temporary files
+*.msix
+*.appx
+*.msixbundle
+*.appxbundle
+*.part
+*.zip
+*.bin
+
+# Local configurations
+.msstore_downloader.json
+.msstore_test_cfg.json
+
+# IDE & OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
